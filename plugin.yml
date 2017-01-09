@@ -1,0 +1,24 @@
+name: Music
+main: me.catallena.mcaholic.pluginMain
+description: Make your own song and Share to player in server! only use in AfterShockZServer [Base on 1.8]
+version: 1.8
+author: [Catallena_, McAholic, PondJa, SMilyDay_xD, SMD_SSG_PJ]
+commands:
+  musicadmin:
+       description: See list of helping for admin (OP)
+  musicadmin play:
+       description: Play Selected Song (OP)
+       usage: type /musicadmin play <song> (USE _ FOR SPACING)
+  musicadmin random:
+       description: Play Random Song (OP)
+       usage: type /musicadmin random
+  musicadmin list:
+       description: List of available song(s) (OP)
+       usage: type /musicadmin list
+  musicadmin reload:
+       description: Re-loading song(s) from folder (OP)
+       usage: type /musicadmin reload
+  music:
+       description: Toggle between Mute and Unmute Music
+       usage: type /music
+  
